@@ -1,0 +1,29 @@
+.chart-wrapper {
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.y-scale {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.y-scale__item {
+    font-size: 12px;
+    fill: lightgrey;
+}
+
+.x-scale {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.x-scale__item {
+    font-size: 12px;
+    fill: lightgrey;
+}
