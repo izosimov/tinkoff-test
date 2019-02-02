@@ -1,0 +1,45 @@
+.info-card {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+.info-card__date {
+    color: darkgray;
+    margin: 0;
+}
+
+.info-card__currency-rate {
+    display: flex;
+    margin: 0;
+}
+
+.info-card__currency {
+    margin: 0 2px 0 0;
+}
+
+.info-card__currency-value {
+    margin: 0 10px 0 0;
+}
+
+.info-card__currency-dynamic-wrap {
+    display: flex;
+}
+
+.info-card__currency-dynamic {
+    margin: 0;
+}
+
+.info-card__currency-dynamic_up {
+    color: green;
+}
+
+.info-card__currency-dynamic_down {
+    color: red;
+}
