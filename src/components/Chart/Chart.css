@@ -5,6 +5,7 @@
     padding: 10px;
     border-radius: 5px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .y-scale__item {

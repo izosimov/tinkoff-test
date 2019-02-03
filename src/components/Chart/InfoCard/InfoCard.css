@@ -7,7 +7,7 @@
     border-radius: 2px;
     box-sizing: border-box;
     background-color: #fff;
-    box-shadow: 2px 2px 5px lightgrey;
+    box-shadow: 0 0 5px lightgrey;
 }
 
 .info-card__date {
